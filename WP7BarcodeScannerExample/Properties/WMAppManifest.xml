@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{a19d561e-fd9e-4c78-b42c-fbaa935677f3}" Title="WP7BarcodeScannerExample" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="WP7BarcodeScannerExample author" Description="Sample description" Publisher="WP7BarcodeScannerExample">
+    <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_GAMERSERVICES"/>
+      <Capability Name="ID_CAP_IDENTITY_DEVICE"/>
+      <Capability Name="ID_CAP_IDENTITY_USER"/>
+      <Capability Name="ID_CAP_LOCATION"/>
+      <Capability Name="ID_CAP_MEDIALIB"/>
+      <Capability Name="ID_CAP_MICROPHONE"/>
+      <Capability Name="ID_CAP_NETWORKING"/>
+      <Capability Name="ID_CAP_PHONEDIALER"/>
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION"/>
+      <Capability Name="ID_CAP_SENSORS"/>
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
+      <Capability Name="ID_CAP_ISV_CAMERA"/>
+      <Capability Name="ID_CAP_CONTACTS"/>
+      <Capability Name="ID_CAP_APPOINTMENTS"/>
+    </Capabilities>
+    <Tasks>
+      <DefaultTask  Name ="_default" NavigationPage="MainPage.xaml"/>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="WP7BarcodeScannerExampleToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>WP7BarcodeScannerExample</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
